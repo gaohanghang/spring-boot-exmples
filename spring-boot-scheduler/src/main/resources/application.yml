@@ -1,0 +1,6 @@
+# 定时任务配置
+scheduled:
+  cron: 0/5 * * * * ?
+#  定时任务开启和关闭 开启: true 关闭:false
+enable:
+  scheduled: true
