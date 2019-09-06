@@ -12,5 +12,5 @@ public interface HelloRemote {
 
     @RequestLine("POST /post")
     @Headers("Content-Type: application/json")
-    String testPostRequest(@RequestBody PostDTO postDTO);
+    String testPostRequest(PostDTO postDTO);
 }
