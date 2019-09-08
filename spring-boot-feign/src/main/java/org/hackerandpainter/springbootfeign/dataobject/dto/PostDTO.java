@@ -1,4 +1,4 @@
-package org.hackerandpainter.springbootfeign.model;
+package org.hackerandpainter.springbootfeign.dataobject.dto;
 
 import lombok.Data;
 

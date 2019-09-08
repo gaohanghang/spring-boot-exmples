@@ -1,4 +1,4 @@
-package org.hackerandpainter.springbootfeign;
+package org.hackerandpainter.springbootfeign.utils;
 
 import feign.Feign;
 

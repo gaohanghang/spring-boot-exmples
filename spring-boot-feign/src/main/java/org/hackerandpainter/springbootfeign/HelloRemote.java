@@ -2,8 +2,7 @@ package org.hackerandpainter.springbootfeign;
 
 import feign.Headers;
 import feign.RequestLine;
-import org.hackerandpainter.springbootfeign.model.PostDTO;
-import org.springframework.web.bind.annotation.RequestBody;
+import org.hackerandpainter.springbootfeign.dataobject.dto.PostDTO;
 
 public interface HelloRemote {
 
