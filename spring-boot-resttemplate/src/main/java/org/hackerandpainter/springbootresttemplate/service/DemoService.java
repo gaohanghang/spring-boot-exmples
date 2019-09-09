@@ -18,4 +18,8 @@ public class DemoService {
     public String get(Integer id){
         return restTemplate.getForObject("http://www.baidu.com",String.class);
     }
+
+    public String post() {
+        return restTemplate.getForObject("http://www.baidu.com",String.class);
+    }
 }
