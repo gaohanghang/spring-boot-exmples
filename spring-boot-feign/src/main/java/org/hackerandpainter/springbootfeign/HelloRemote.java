@@ -2,7 +2,7 @@ package org.hackerandpainter.springbootfeign;
 
 import feign.Headers;
 import feign.RequestLine;
-import org.hackerandpainter.springbootfeign.dataobject.dto.PostDTO;
+import org.hackerandpainter.springbootfeign.dataobject.vo.RequestPostVO;
 
 public interface HelloRemote {
 
@@ -11,5 +11,5 @@ public interface HelloRemote {
 
     @RequestLine("POST /post")
     @Headers("Content-Type: application/json")
-    String testPostRequest(PostDTO postDTO);
+    String testPostRequest(RequestPostVO requestPostVO);
 }

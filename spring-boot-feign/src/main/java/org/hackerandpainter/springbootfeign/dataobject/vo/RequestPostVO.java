@@ -1,4 +1,4 @@
-package org.hackerandpainter.springbootfeign.dataobject.dto;
+package org.hackerandpainter.springbootfeign.dataobject.vo;
 
 import lombok.Data;
 
@@ -8,10 +8,10 @@ import lombok.Data;
  * @Date 2019-09-06 09:47
  **/
 @Data
-public class PostDTO {
+public class RequestPostVO {
     private String strange;
 
-    public PostDTO(String strange) {
+    public RequestPostVO(String strange) {
         this.strange = strange;
     }
 }
